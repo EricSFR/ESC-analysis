@@ -25,14 +25,14 @@ Let's take a look at the physical components and explore where these marking cod
 - **LM78L05ACM**: This is also a 5V voltage regulator but with different packaging and maximum current capacity. You can read the [datasheet](Datasheets/REGULATOR_LM78L05ACM.pdf) for more details.
 - **PD0603BDL**: This is a MOSFET. You can read the [datasheet](Datasheets/MOSFET_PD0603BDL.pdf) for more details.
 
-<h2>Schematics</h2>
+<h3>Schematics</h3>
 With that information, I could start measuring the traces with a multimeter, checking them one by one, and then transfer that information to the schematics.</br>
 However, I'll show you the schematic in a broken-down and separated format to simplify the explanation. 
 
 
 </br>// But if you want to see the complete schematics [click here](ESC_Analysis_Schematic.PDF)
 
-<h3>Power Supply Stage</h3>
+<h4>Power Supply Stage</h4>
 
 ![Power Supply Schematics](/Schematics/PowerSupply.png)
 
@@ -41,20 +41,20 @@ Next, we see the power source connection in parallel with a capacitor, followed 
 This regulator helps prevent surges, voltage drops, or other interferences that could affect the microcontroller's operation.
 
 
-<h3>Microcontroller</h3>
+<h4>Microcontroller</h4>
 
 ![Microcontroller Schematics](/Schematics/Microcontroller.png)
 
 The [ATmega8L](Datasheets/MICROCONTROLLER_ATmega8L.pdf) is responsible for all the magic here. It coordinates the switching of the MOSFETs, controls the speed, monitors the power source for any disturbances, and more.
 
-<h3>MOSFETs Switching</h3>
+<h4>MOSFETs Switching</h4>
 
 ![High-Side Switching Schematics](/Schematics/HS_Switching.png)
 ![Low-Side Switching Schematics](/Schematics/LS_Switching.png)
 
 In these two sections, we have a circuit that, among other things, helps the ATmega to properly switch the MOSFETs.
 
-<h3>Three Phase H-Bridge</h3>
+<h4>Three Phase H-Bridge</h4>
 
 ![Three-Phase H-Bridge Schematics](/Schematics/ThreePhaseBridge.png)
 
@@ -64,10 +64,13 @@ These MOSFETs are responsible for properly switching the voltage to the motor, u
 </br>In a three-phase H-Bridge, there are typically six MOSFETs arranged in three pairs. Each pair controls one phase of the motor, allowing for precise control of motor speed and direction, by turning the MOSFETs on and off in a specific sequence. 
 This type of setup is commonly used in brushless DC (BLDC) motors, which require accurate control of the phase timing for smooth operation.
 
-<h3>Sense Circuits</h3>
+<h4>Sense Circuits</h4>
 
 ![Phase Senses Schematics](/Schematics/PhaseSense.png)
 ![Vdd Sense Schematics](/Schematics/VddSense.png)
 
 Last but not least, we have a simple resistor-based circuit that provides the microcontroller with references on how things are going and whether there are any issues with the motor, such as overcurrent or malfunction.
 
+<h3>Building the PCB layout</h3>
+
+COMING SOON...
