@@ -73,6 +73,12 @@ Last but not least, we have a simple resistor-based circuit that provides the mi
 
 <h3>Building the PCB layout</h3>
 
-With the schematics and the real board in hands, i was abke to start building the 3D version of the PCB, but without desoldering the components I couldn't be certain where some things were located, principally skme traces in the inner layer, so I took some guesses and the results you see below:
+With the schematics and the real board in hand, I was able to start building the 3D version of the PCB. However, without desoldering the components, I couldn't be certain about the exact locations of some things, especially certain traces in the inner layers. So, I made some educated guesses, and the results are shown below:
+
+#### 3D Board
+
+##### Top View
+
+![3D Top View](/Images/3dTopVies.png)
 
 COMING SOON...
