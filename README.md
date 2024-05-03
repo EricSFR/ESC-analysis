@@ -79,6 +79,10 @@ With the schematics and the real board in hand, I was able to start building the
 
 ##### Top View
 
-![3D Top View](/Images/3dTopVies.png)
+![3D Top View](/Images/3D_Top_View.png)
+
+##### Bottom View
+
+![3D Bottom View](/Images/3D_Bottom_View.png)
 
 COMING SOON...
