@@ -83,6 +83,20 @@ With the schematics and the real board in hand, I was able to start building the
 
 ##### Bottom View
 
-![3D Bottom View](/Images/3D_Bottom_View.png)
+![3D Bottom View](/Images/3d_Bottom_View.png)
+
+### Copper Layers
+
+#### Top Layer
+
+![Top Copper Layer](/Images/Top_Copper.png)
+
+#### Inner Layer
+
+![Inner Copper Layer](/Images/Inner_Copper.png)
+
+#### Bottom Layer
+
+![Bottom Copper Layer](/Images/Bottom_Copper.png)
 
 COMING SOON...
