@@ -89,7 +89,7 @@ With the schematics and the real board in hand, I was able to start building the
 
 #### Top Layer
 
-![Top Copper Layer](/Images/ESC_Top_Copper.png)
+![Top Copper Layer](/Images/Top_Copper.png)
 
 #### Inner Layer
 
@@ -99,4 +99,3 @@ With the schematics and the real board in hand, I was able to start building the
 
 ![Bottom Copper Layer](/Images/Bottom_Copper.png)
 
-COMING SOON...
