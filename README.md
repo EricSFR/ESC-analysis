@@ -73,4 +73,29 @@ Last but not least, we have a simple resistor-based circuit that provides the mi
 
 <h3>Building the PCB layout</h3>
 
-COMING SOON...
+With the schematics and the real board in hand, I was able to start building the 3D version of the PCB. However, without desoldering the components, I couldn't be certain about the exact locations of some things, especially certain traces in the inner layers. So, I made some educated guesses, and the results are shown below:
+
+#### 3D Board
+
+##### Top View
+
+![3D Top View](/Images/3D_Top_View.png)
+
+##### Bottom View
+
+![3D Bottom View](/Images/3d_Bottom_View.png)
+
+### Copper Layers
+
+#### Top Layer
+
+![Top Copper Layer](/Images/Top_Copper.png)
+
+#### Inner Layer
+
+![Inner Copper Layer](/Images/Inner_Copper.png)
+
+#### Bottom Layer
+
+![Bottom Copper Layer](/Images/Bottom_Copper.png)
+
